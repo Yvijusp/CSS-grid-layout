@@ -8,7 +8,7 @@
 .line {
   position: absolute;
   background-color: var(--cyan);
-  top: 17%;
+  top: 36%;
   left: 0;
   width: 100%;
   height: 220px;
@@ -58,4 +58,16 @@
 
 .in-bg {
   background-color: #c536a4;
+}
+
+@media screen and (max-width: 1024px) {
+  .line {
+    top: 17%;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .line {
+    top: 10%;
+  }
 }

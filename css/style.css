@@ -72,3 +72,15 @@ i {
   align-items: center;
   justify-content: center;
 } */
+
+@media screen and (max-width: 1024px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .container {
+    max-width: 340px;
+  }
+}

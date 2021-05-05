@@ -88,3 +88,21 @@
     grid-row: 1/3;
   }
 }
+
+@media screen and (max-width: 769px) {
+  .grid-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr 1fr 2fr 2fr 1fr;
+    height: 1330px;
+    max-width: 340px;
+  }
+
+  .grid-mainPicture {
+    grid-row: 1/1;
+    grid-column: 1/1;
+  }
+
+  .grid-more {
+    padding: 20px 30px;
+  }
+}
