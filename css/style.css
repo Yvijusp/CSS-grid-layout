@@ -1,5 +1,6 @@
 html {
   box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
 }
 
 *,
@@ -10,6 +11,16 @@ html {
 
 :root {
   --yellow: #ffc600;
+  --blue: #494399;
+  --cyan: #72efe9;
+  --light-blue: #c2bfed;
+  --gray: #333333;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  height: 72px;
 }
 
 .fixed-top {
@@ -55,3 +66,9 @@ i {
 .display-block {
   display: block;
 }
+
+/* .grid-item {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+} */
